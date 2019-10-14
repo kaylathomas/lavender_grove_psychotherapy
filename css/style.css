@@ -28,6 +28,11 @@ CUSTOM CSS
 .lavender-small {
     width: 4%;
     height: auto;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
 }
 
 .placeholder-image {
@@ -194,7 +199,7 @@ section {
 --------------------*/
 
 header {
-    background-image: url(https://i.imgur.com/BRqLgYo.jpg);
+    background-image: url(/images/lavendergrove.jpg);
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
