@@ -65,6 +65,20 @@ CUSTOM CSS
     width: 100%;
     height: auto;
 }
+
+.delius {
+    font-family: 'Delius Unicase', cursive;
+}
+
+
+.amatic {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+
+.front-page-minor {
+    font-size: 300%;
+}
 /*--------------------
 Import Google Fonts
 --------------------*/
@@ -241,8 +255,6 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    font-family: "Playfair Display",sans-serif;
-    font-style: italic;
     font-size: 22px;
     line-height: 22px;
     margin-bottom: 25px;
@@ -251,7 +263,6 @@ header .intro-text .intro-lead-in {
 @media (min-width: 768px) {
 	header .intro-text .intro-lead-in {
 	    font-family: "Playfair Display",sans-serif;
-	    font-style: italic;
 	    font-size: 40px;
 	    line-height: 40px;
 	    margin-bottom: 25px;
@@ -261,7 +272,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 700%;
     line-height: 50px;
     margin-bottom: 25px;
 }
@@ -270,7 +281,7 @@ header .intro-text .intro-heading {
 	header .intro-text .intro-heading {
 	    text-transform: uppercase;
 	    font-weight: 700;
-	    font-size: 75px;
+	    font-size: 700%;
 	    line-height: 75px;
 	    margin-bottom: 50px;
 	}
@@ -281,7 +292,8 @@ header .intro-text .intro-heading {
 --------------------*/
 
 .section-title h2 {
-    font-size: 34px;
+    font-size: 400%;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
